@@ -1,0 +1,463 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "Playfair Display", serif;
+}
+a{
+  text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: #fff;
+    margin-bottom: 20px !important;
+    
+}
+p{
+    color: #fff;
+    margin-bottom: 20px !important;
+    
+}
+img{
+    width: 100%;
+    display: block;
+}
+body{
+    width: 100% !important;
+    margin: auto;
+    background-color: rgb(249, 249, 211);
+}
+nav.navbar.navbar-expand-lg{
+    padding: 8px 56px;
+}
+.fab{
+    font-size: 22px;
+}
+.navbar-brand{
+    font-size: 45px !important;
+    color: rgb(145, 136, 136) !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.nav-link{
+    padding: 0 15px !important;
+}
+
+.bnr-row{
+    display: flex;
+    flex-direction: row;
+    
+}
+.banner-section{
+    width: 100%;
+    padding-top: 3rem;
+    padding-bottom: 6rem;
+}
+.bnr-images img{
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    background-color: #fff;
+    padding: 10px 5px;
+}
+.bnr-left img{
+    width: 570px;
+    height: 460px;
+}
+.bnr-left{
+    padding: 0 !important;
+}
+.img.d-block.w-100{
+    height: 604px;
+    width: 282px;
+}
+.bnr-right{
+    background-color: #778899;
+    height: 460px;
+    overflow: hidden;
+}
+.carousel-control-next, .carousel-control-prev{
+    border: none !important;
+    background: transparent !important;
+}
+.top-left h2{
+    position: absolute;
+    top: 20px;
+    left: 16px;
+    color: grey;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+.title-winter{
+    position: relative;
+}
+.title-winter::after{
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    height: 2px;
+    width: 300px;
+    background-color: #fff;
+}
+.btn2{
+    background-color: #212529!important;
+    padding: 10px 28px !important;
+}
+.btn2 a{
+    text-decoration: none !important;
+    color: #fff;
+    letter-spacing: 3px !important;
+}
+.banner-bottom{
+    padding-top: 3rem;
+    padding-bottom: 6rem;
+}
+.bnr-btm-clm img{
+    height: 400px;
+    position: relative;
+}
+.bnr-btm-clm:hover img {
+    background-color: #010b0f;
+}
+.bnr-btm-clm img:hover{
+    opacity: 0.6;
+}
+.bnr-btm-text .btn2{
+    width: 300px;
+}
+.bnr-btm-text{
+    position: absolute;
+    content: "";
+    bottom: 10px;
+    left: 30px;
+}
+.email-block .row{
+    background-color: #212529;
+    padding: 90px 0;
+    justify-content: center;
+}
+.email-block{
+    padding-top: 5rem;
+    padding-bottom: 7rem;
+}
+.email-block .row h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.email-block .row p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.email-block-text col12{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.email-block-input{
+    width: 90%;
+    margin: auto;
+}
+.email-block-input input{
+    background-color: transparent !important;
+    color: #fff !important;
+}
+.form-control{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.products{
+    padding-top: 3rem;
+    padding-bottom: 7rem;
+}
+.products-card img{
+    width: 100%;
+    height: 300px;
+}
+.products-card-text{
+    margin: 16px 0 !important;
+}
+.products-card-text h5{
+    color: #212529 !important;
+    font-weight: 600 !important;
+    font-size: large;
+    margin-bottom: 2px !important;
+    letter-spacing: 1px;
+}
+.products-card-text p{
+    color: #212529 !important;
+    font-weight: 300 !important;
+    font-size: small;
+    margin-bottom: 2px !important;
+    letter-spacing: 1px;
+}
+.products h3{
+    color: #010b0f !important;
+    position: relative;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+.products h3::after{
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    height: 1px;
+    width: 96%;
+    background-color: #b3c5dc;
+}
+.joy-shop{
+    padding-top: 4rem;
+    padding-bottom: 6rem;
+}
+.joy-shop .row{
+    background-color: #212529;
+    align-items: center;
+    
+}
+.joy-shop-img{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 0 !important;
+}
+.joy-shop-img img{
+    height: 380px;
+}
+.joy-shop-img1{
+    border-top-left-radius: 250px;
+    width: 233px;
+}
+.joy-shop-img2{
+    width: 180px;
+}
+.joy-shop-img3{
+    width: 223px;
+}
+.joy-shop-text h1{
+    font-weight: 400 !important;
+    letter-spacing: 2px !important;
+    padding-bottom: 20px !important;
+    margin-bottom: 20px !important;
+    position: relative;
+}
+.joy-shop-text p{
+    font-weight: 300 !important;
+    letter-spacing: 5px !important;
+    font-size: 12px !important;
+}
+.joy-shop-text h1::after{
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    height: 1px;
+    width: 230px;
+    background-color: #fff;
+}
+.joy-shop-text .btn2{
+    width: 200px;
+    background-color: #010b0f!important; 
+}
+.review-block{
+    padding-top: 5rem;
+    padding-bottom: 6rem;
+}
+.review-block .container{
+    padding: 0 0 !important;
+}
+.review-block-card-person{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: auto;
+    position: relative;
+    top: -60px;
+}
+.review-block h3{
+    color: #010b0f !important;
+    position: relative;
+    padding-bottom: 10px;
+    font-size: 25px;
+    font-weight: 500;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.review-block h3::after{
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    height: 1px;
+    width: 96%;
+    background-color: #b3c5dc;
+}
+.review-block .row{
+    padding-top: 90px !important;
+}
+.review-block-card{
+    background-color: #b3c5dc;
+    outline: 2px solid #fff;
+    outline-offset: -10px;
+    padding: 20px;
+    width: 260px;
+    height: 350px;
+    margin: auto;
+}
+.review-block-card-stars{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    transform: scale(0.4);
+}
+.review-block-card h3{
+    color: #010b0f;
+    font-size: 22px !important;
+    font-weight: 400 !important;
+    margin-bottom: 12px !important;
+}
+.review-block-card p{
+    color: #010b0f;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    margin-bottom: 12px !important;
+}
+.review-block-card-text {
+    margin-top: -50px;
+}
+.review-bottom .row{
+    background-color: #212529;
+    padding: 90px 0;
+    justify-content: center;
+}
+.review-bottom-img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 0 auto 12px;
+}
+.review-bottom-text{
+    padding: 0 40px !important;
+}
+.review-bottom .review-bottom-text h5{
+    font-size: 20px !important;
+    margin-bottom: 12px !important;
+}
+.review-bottom .review-bottom-text p{
+    font-size: 17px !important;
+   font-family: "Times New Roman', Times, serif";
+}
+
+.review-bottom-content-text p{
+    color: #010b0f !important;
+    padding: 0 60px !important;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.footer-block-img{
+    width: 285px;
+    height: 300px;
+}
+.footer-block .footer-block-descripton{
+    background-color: #212529 !important;
+    padding: 15px 0 !important;
+    margin-right: -15px !important;
+    margin-left: -15px !important;
+    font-family: "Times New Roman', Times, serif";
+    margin-bottom: 0 !important;
+}
+.footer-block-bottom{
+    background-color: #212529 !important;
+    text-align: left !important;
+}
+.footer-block-bottom-logo {
+    text-align: right;
+    padding-right: 40px !important;
+    color: #fff !important;
+}
+.footer-block-bottom-form{
+    margin-left: -15px !important;
+}
+@media screen and (max-width:768px) {
+    .bnr-left.col12.col-md-6 {
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .bnr-left.col12.col-md-6 {
+        margin-bottom: 20px;
+        
+    }
+    .bnr-left img{
+        width: 100%;
+        height: 400px;
+        margin: auto;
+    }
+    .bnr-btm-text {
+        position: absolute;
+        content: "";
+        bottom: 50px;
+        left: 109px;
+    }
+    .bnr-btm-clm img {
+       margin-bottom: 30px;
+    }
+    .joy-shop-img {
+        justify-content: center;
+    }
+    .joy-shop-img img{
+        
+        height: 280px;
+    }
+    .joy-shop-img1{
+        width: 180px;
+    }
+    .joy-shop-img2{
+        width: 120px;
+    }
+    .joy-shop-img3{
+        width: 180px;
+    }
+    .review-block-card{
+        width: 95%;
+        margin: 0 auto 50px;
+        padding: 40px;
+    }
+    .review-bottom{
+        width: 95%;
+        margin: 0 auto 50px;
+        padding: 40px;
+    }
+    .footer-block {
+        width: 95%;
+        margin: 0 auto 50px;
+        padding: 40px;
+    }
+    .footer-block-img {
+        justify-content: center;
+        padding-left: 80px;
+        margin-bottom: 40px;
+    }
+    .footer-block-img img{
+        height: 280px;
+    }
+    .footer-block-img1{
+        width: 180px;
+    }
+    .footer-block-img2{
+        width: 120px;
+    }
+    .footer-block-img3{
+        width: 180px;
+    }
+    .footer-block-img4{
+        width: 120px;
+    }
+    .row {
+        width: 95%;
+        margin: 0 auto 50px;
+        padding: 40px;
+    }
+
+}
